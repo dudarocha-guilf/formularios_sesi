@@ -1,0 +1,13 @@
+body {
+    background-color: indigo;
+    background-image: url(../image/goku.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    color: white;
+}
+
+
+fieldset {
+    border: solid gold 2px;
+}
