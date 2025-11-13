@@ -1,3 +1,4 @@
+/* Estilizando o Body */
 body {
     background-color: indigo;
     background-image: url(../image/goku.png);
@@ -8,6 +9,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Estilizando o H1 */
 h1 {
     color: goldenrod;
     background-color: darkmagenta;
@@ -17,31 +19,36 @@ h1 {
     border-radius: 4px;
 }
 
+/* Estilizando os broquis */
 fieldset {
     border: solid gold 3px;
 }
 
+/* Estilizando os buttons */
 button {
     padding: 0;
     border: 0;
     background-color: blueviolet;
-    border-radius: 2px;
+    border-radius: 3px;
     color: white;
     width: 60px;
     height: 30px;
-    
+
 
 }
 
+/* Estilizando a quinta parte */
 #e05 textarea {
     resize: none;
 }
 
+/* Estilizando a primeira parte */
 #e01 input {
     width: 900px;
     height: 18px;
 }
 
+/* Estilizando os selects */
 select {
     width: 300px;
     height: 18px;
