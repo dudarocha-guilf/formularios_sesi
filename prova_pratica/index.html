@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <!-- Puxando o CSS externo -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h1>FORMULÁRIO SUPERAÇAIAJIN</h1>
+
+    <br>
+
+    <!-- Primeira Parte do código -->
+    <form id="e01">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+
+            <br>
+
+            <label for="name">Nome:</label>
+            <br>
+            <input type="text" name="name">
+
+            <br>
+            <br>
+
+            <label for="age">Idade:</label>
+            <br>
+            <input type="number" name="idade">
+
+            <br>
+            <br>
+
+            <label for="tel">Telefone:</label>
+            <br>
+            <input type="number" name="tel">
+
+            <br>
+            <br>
+
+            <label for="address">Endereço:</label>
+            <br>
+            <input type="text" name="endereco">
+
+            <br>
+            <br>
+
+            <label for="planet">Planeta de Origem: </label>
+            <br>
+            <select name="planet" id="planet">
+                <option>Selecione uma Opção</option>
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Outros</option>
+            </select>
+
+        </fieldset>
+    </form>
+
+    <!-- Segunda Parte do Código -->
+    <form id="e02">
+        <fieldset>
+            <legend>Dados Extras:</legend>
+
+            <br>
+
+            <label for="race">Raça do Universo 7 preferida: </label>
+            <select name="race" id="race">
+                <option>Selecione uma Opção</option>
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>NameKeijin</option>
+                <option>Androide</option>
+                <option>Outros</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="job">Trabalho:</label>
+
+            <input type="radio" name="job" id="auto" value="auto">
+            <label for="auto">Autonomo</label>
+
+            <input type="radio" name="job" id="clt" value="clt">
+            <label for="clt">Empregado CLT</label>
+
+            <input type="radio" name="job" id="emp" value="emp">
+            <label for="emp">Empresário</label>
+
+            <input type="radio" name="job" id="goku" value="goku">
+            <label for="goku">Tipo Goku</label>
+        </fieldset>
+    </form>
+
+    <!-- Terceira Parte do Código -->
+    <form id="e03">
+        <fieldset>
+            <legend>Seu açaí é perfeito de que jeito? </legend>
+
+            <br>
+
+            <input type="checkbox" name="area1" value="puro">Puro
+            <input type="checkbox" name="area2" value="banana">Com Banana
+            <input type="checkbox" name="area3" value="morango">Com Morango
+            <input type="checkbox" name="area4" value="granola">Com Granola
+            <input type="checkbox" name="area5" value="terra">Tem Gosto de Terra
+        </fieldset>
+    </form>
+
+    <!-- Quarta Parte do Código -->
+    <form id="e04">
+        <fieldset>
+            <legend>Qual o tamanho preferido?</legend>
+
+            <input type="radio" name="tam" id="500" value="500">
+            <label for="500">500ml</label>
+
+            <input type="radio" name="tam" id="300" value="300">
+            <label for="300">300ml</label>
+
+            <input type="radio" name="tam" id="100" value="100">
+            <label for="100">100ml</label>
+
+            <input type="radio" name="tam" id="casca" value="casca">
+            <label for="casca">Casquinha</label>
+
+            <input type="radio" name="tam" id="terra" value="terra">
+            <label for="terra">Qual parte do gosto de terra você não entendeu?</label>
+        </fieldset>
+    </form>
+
+    <!-- Quinta e Última Parte do Código -->
+    <form id="e05">
+        <fieldset>
+            <label for="message">Observação: </label>
+
+            <br>
+
+            <textarea name="message" id="message" cols="195" rows="8"
+                placeholder="Escreva suas observações... Eu gosto de açaí porque..."></textarea>
+        </fieldset>
+
+        <!-- Botões de enviar e limpar -->
+        <button type="submit">Enviar</button>
+        <button type="submit">Limpar</button>
+    </form>
+
+</body>
+
+</html>
