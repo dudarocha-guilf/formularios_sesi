@@ -11,3 +11,10 @@ body {
 fieldset {
     border: solid gold 2px;
 }
+
+button {
+    background-color: blueviolet;
+    border: 2px blueviolet;
+    border-radius: 5px;
+    color: white;
+}
