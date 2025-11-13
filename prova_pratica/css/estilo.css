@@ -5,16 +5,44 @@ body {
     background-position: right;
     background-size: 40%;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    color: goldenrod;
+    background-color: darkmagenta;
+    border: goldenrod dotted 2px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 4px;
+}
 
 fieldset {
-    border: solid gold 2px;
+    border: solid gold 3px;
 }
 
 button {
+    padding: 0;
+    border: 0;
     background-color: blueviolet;
-    border: 2px blueviolet;
-    border-radius: 5px;
+    border-radius: 2px;
     color: white;
+    width: 60px;
+    height: 30px;
+    
+
+}
+
+#e05 textarea {
+    resize: none;
+}
+
+#e01 input {
+    width: 900px;
+    height: 18px;
+}
+
+select {
+    width: 300px;
+    height: 18px;
 }
