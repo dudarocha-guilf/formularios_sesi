@@ -3,8 +3,9 @@ body {
     background-color: indigo;
     background-image: url(../image/goku.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 40%;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 30%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -16,7 +17,7 @@ h1 {
     border: goldenrod dotted 2px;
     text-align: center;
     font-family: cursive;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 /* Estilizando os broquis */
